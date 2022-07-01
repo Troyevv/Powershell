@@ -1,0 +1,1 @@
+﻿Get-ADUser -filter * -SearchBase "ou=All Users,dc=homecredit,dc=ru" -Properties Title,Department,City,mail| foreach {Get-ADUser  $_ -Properties name, mail, Description, extensionAttribute9 |select name, mail, Description, extensionAttribute9 }|where {$_.mail -ne $null,$_.Description -ne $null}|Out-File C:\Users\AAleAleksandrov\Desktop\Powershell\users1.txt -Encoding utf8

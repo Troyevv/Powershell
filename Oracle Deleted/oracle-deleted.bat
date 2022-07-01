@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy Bypass -File .\oracle-deleted.ps1
