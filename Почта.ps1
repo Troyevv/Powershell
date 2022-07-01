@@ -1,1 +1,1 @@
-﻿SendMessage -To 'maksim.georgiychuk@homecredit.ru' -From 'aleksandr.al.aleksandrov@homecredit.ru' -Subject "Роллы" -Body "Покушаем роллов?))))"  -Encoding 'UTF8' -SmtpServer "mxsmtp.homecredit.ru"
+﻿SendMessage -To 'Example@mail.com' -From 'Example@mail.com' -Subject "Тема" -Body "Текст"  -Encoding 'UTF8' -SmtpServer "mail server"
